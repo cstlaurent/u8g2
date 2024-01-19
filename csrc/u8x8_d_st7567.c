@@ -538,7 +538,7 @@ static const u8x8_display_info_t u8x8_st7567_enh_dg128064_display_info =
         /* write_pulse_width_ns = */ 80, /* */
         /* tile_width = */ 16,           /* width of 16*8=128 pixel */
         /* tile_height = */ 8,
-        /* default_x_offset = */ 0,
+        /* default_x_offset = */ 3, // Specific to GY12864-1489
         /* flipmode_x_offset = */ 4,
         /* pixel_width = */ 128,
         /* pixel_height = */ 64};
